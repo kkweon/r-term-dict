@@ -1,0 +1,663 @@
+[
+  {
+    "english": "AFTER THE FACT",
+    "korean": "\uc0ac\ud6c4\uc5d0"
+  },
+  {
+    "english": "ARGUMENT",
+    "korean": "\uc778\uc790"
+  },
+  {
+    "english": "BASE TYPES",
+    "korean": "\ubca0\uc774\uc2a4 \ud0c0\uc785"
+  },
+  {
+    "english": "PLOT",
+    "korean": "\ud50c\ub86f"
+  },
+  {
+    "english": "PLOT",
+    "korean":
+      "\ud50c\ub86f(figure\uc640 \uad6c\ubd84\ud558\uae30 \uc704\ud574 \uadf8\ub0e5 plot\uc73c\ub85c \ud568)"
+  },
+  {
+    "english": "PREDICATES",
+    "korean": "\ub17c\ub9ac\uc11c\uc220\uc790\ud568\uc218"
+  },
+  {
+    "english": "PREREQUISITES",
+    "korean": "\uc0ac\uc804 \uc900\ube44"
+  },
+  {
+    "english": "PRINT",
+    "korean": "\uc778\uc1c4, print on screen -> \ucd9c\ub825?"
+  },
+  {
+    "english": "PROMISE",
+    "korean": "\ud504\ub85c\ubbf8\uc2a4"
+  },
+  {
+    "english": "PROPERTY",
+    "korean": "\uc131\uc9c8"
+  },
+  {
+    "english": "RECTRAGULAR",
+    "korean": "\uc9c1\uc0ac\uac01\ud615 (\uc9c1\ubc29\ud615?)"
+  },
+  {
+    "english": "RECURSIVE CASE",
+    "korean": "\uc7ac\uadc0\uc0ac\ub840"
+  },
+  {
+    "english": "REPLACE",
+    "korean": "\ub300\uccb4\ud558\ub2e4, \ubc14\uafb8\ub2e4"
+  },
+  {
+    "english": "BEFORE THE FACT",
+    "korean": "\uc0ac\uc804\uc5d0"
+  },
+  {
+    "english": "REPRESENATATION (OF DATA)",
+    "korean": "\ud45c\ud604\ubc95"
+  },
+  {
+    "english": "REPRODUCIBLE",
+    "korean":
+      "\uc7ac\uc0dd\uc0b0 \uac00\ub2a5\ud55c? \uc7ac\ud604\uac00\ub2a5\ud55c?"
+  },
+  {
+    "english": "RESULT",
+    "korean": "\uacb0\uacfc"
+  },
+  {
+    "english": "RETURN",
+    "korean": "\ub9ac\ud134"
+  },
+  {
+    "english": "RSTUDIO",
+    "korean": "Rstudio"
+  },
+  {
+    "english": "SEALED NAMESPACE",
+    "korean": "\ubcf4\ud638\ub41c \ub124\uc784\uc2a4\ud398\uc774\uc2a4"
+  },
+  {
+    "english": "SECTION",
+    "korean": "\uc808"
+  },
+  {
+    "english": "SEMANTICS",
+    "korean": "\uc2dc\ub9e8\ud2f1\uc2a4"
+  },
+  {
+    "english": "SHORTHAND",
+    "korean":
+      "\uc904\uc5ec\uc4f0\uae30,\ub2e8\ucd95\ud45c\ud604,\uc904\uc784\ub9d0, ..."
+  },
+  {
+    "english": "SIDE EFFECT",
+    "korean": "\ud30c\uae09 \ud6a8\uacfc"
+  },
+  {
+    "english": "BEHAVIOR",
+    "korean": "\ud589\ub3d9"
+  },
+  {
+    "english": "SIGNAL CLASS",
+    "korean": "\uc2e0\ud638\ud074\ub798\uc2a4"
+  },
+  {
+    "english": "SPECIFICATION",
+    "korean": "\ud2b9\uc815"
+  },
+  {
+    "english": "SPLIT",
+    "korean": "\ucabc\uac1c\ub2e4"
+  },
+  {
+    "english": "STACKED BAR CHART",
+    "korean": "\uc313\uc778 \ub9c9\ub300 \ucc28\ud2b8"
+  },
+  {
+    "english": "STATEMENT",
+    "korean": "\uc120\uc5b8,\uad6c\ubb38"
+  },
+  {
+    "english": "STRING",
+    "korean": "\ubb38\uc790\uc5f4"
+  },
+  {
+    "english": "SUBCOMPACT CAR",
+    "korean": "\uc18c\ud615\ucc28"
+  },
+  {
+    "english": "SUBSET",
+    "korean": "subset"
+  },
+  {
+    "english": "SUBSETTING",
+    "korean": "subset \uc791\uc5c5"
+  },
+  {
+    "english": "SUGAR",
+    "korean": "sugar"
+  },
+  {
+    "english": "BEHAVIOURAL FOS",
+    "korean": "\ud589\ub3d9\uc801FOs"
+  },
+  {
+    "english": "SUMMARY",
+    "korean": "\uc694\uc57d"
+  },
+  {
+    "english": "SYNTATIC",
+    "korean": "\uad6c\ubb38\ub85d\uc801"
+  },
+  {
+    "english": "SYNTAX",
+    "korean": "\uc2e0\ud0dd\uc2a4, \uad6c\ubb38, \ubb38\ubc95"
+  },
+  {
+    "english": "TABLE",
+    "korean": "\ud14c\uc774\ube14"
+  },
+  {
+    "english": "TEMPLATED",
+    "korean": "\uaddc\uaca9\ud654\ub418\uc5b4 \uc788\ub294"
+  },
+  {
+    "english": "THROW AN ERROR",
+    "korean": "\uc5d0\ub7ec\ub97c \ub0b4\ubc49\ub2e4"
+  },
+  {
+    "english": "TIBBLE",
+    "korean": null
+  },
+  {
+    "english": "TIDY",
+    "korean": null
+  },
+  {
+    "english": "TIME",
+    "korean": "\ud0c0\uc784\ud615"
+  },
+  {
+    "english": "TOP-LEVEL OF FUNCTION",
+    "korean": "\ud568\uc218\uc758\ucd5c\uace0\uc218\uc900"
+  },
+  {
+    "english": "BIAS",
+    "korean": "\ud3b8\ud5a5"
+  },
+  {
+    "english": "TREE",
+    "korean":
+      "\ud2b8\ub9ac(\ub098\ubb34\ub85c \ubc88\uc5ed\ud558\uc9c0 \uc54a\uc74c)"
+  },
+  {
+    "english": "TRICKY",
+    "korean": "\ud2b8\ub9ac\ud0a4"
+  },
+  {
+    "english": "TRUE, TRUE",
+    "korean": "TRUE, \ucc38"
+  },
+  {
+    "english": "TWEAK",
+    "korean": "\uac1c\uc870\ud558\ub2e4. \uac1c\uc120\ud558\ub2e4."
+  },
+  {
+    "english": "TYPE",
+    "korean": "\uc720\ud615"
+  },
+  {
+    "english": "UNDERLYING BASE TYPE",
+    "korean": "\uae30\uc800\ubca0\uc774\uc2a4\ud0c0\uc785"
+  },
+  {
+    "english": "UNDERLYING VS. FUNDAMENTAL VS. BASIC",
+    "korean": "\uae30\uc804,\uadfc\ubcf8,\uae30\ucd08"
+  },
+  {
+    "english": "UNDERSCORE",
+    "korean": null
+  },
+  {
+    "english": "VALUE",
+    "korean": "\uac12, \ub370\uc774\ud130\uac12"
+  },
+  {
+    "english": "WARNING",
+    "korean": "\uacbd\uace0"
+  },
+  {
+    "english": "BINARY OPERATOR",
+    "korean": "\uc774\uc9c4\uc5f0\uc0b0\uc790"
+  },
+  {
+    "english": "WE WANT",
+    "korean": "~\uac00 \ud544\uc694\ud558\ub2e4"
+  },
+  {
+    "english": "WHITESPACE",
+    "korean": "\uc5ec\ubc31\uacf5\uac04,\uc5ec\ubc31\ubb38\uc790"
+  },
+  {
+    "english": "WHITESPACE",
+    "korean": "\ud654\uc774\ud2b8\uc2a4\ud398\uc774\uc2a4"
+  },
+  {
+    "english": "WORK",
+    "korean": null
+  },
+  {
+    "english": "WORK WITH",
+    "korean": null
+  },
+  {
+    "english": "WORKING SPACE",
+    "korean": "\uc791\uc5c5 \uacf5\uac04"
+  },
+  {
+    "english": "WRAPPER",
+    "korean": "\ub798\ud37c"
+  },
+  {
+    "english": "VARIATION",
+    "korean": "\ubcc0\ub3d9"
+  },
+  {
+    "english": "MUTATE",
+    "korean":
+      "\ubcc0\ud615? \uc5f4 \ubcc0\ud615? \uc5f4 \ubcc0\ud615 \ucd94\uac00?"
+  },
+  {
+    "english": "DATA CLEANSING",
+    "korean": "\ub370\uc774\ud130 \uc815\uc81c"
+  },
+  {
+    "english": "BINWIDTH",
+    "korean": "\ube48\ub108\ube44"
+  },
+  {
+    "english": "TRANSFORMATION",
+    "korean": "\ubcc0\ud615"
+  },
+  {
+    "english": "DST",
+    "korean": "\uc77c\uad11 \uc808\uc57d \uc2dc\uac04"
+  },
+  {
+    "english": "DAY LIGHT SAVING TIME",
+    "korean": "\uc77c\uad11 \uc808\uc57d \uc2dc\uac04"
+  },
+  {
+    "english": "BODY",
+    "korean": "\ubcf8\ubb38"
+  },
+  {
+    "english": "BOX PLOT",
+    "korean": "\uc0c1\uc790 \ud50c\ub86f"
+  },
+  {
+    "english": "CALL",
+    "korean": "\ud638\ucd9c"
+  },
+  {
+    "english": "ARITHMETIC",
+    "korean": "\uc0b0\uc220"
+  },
+  {
+    "english": "CAPTURE",
+    "korean": "\ud30c\uc545\ud558\ub2e4."
+  },
+  {
+    "english": "CELL (OF DATA FRAME)",
+    "korean": "\uc140"
+  },
+  {
+    "english": "CHALLENGE",
+    "korean": "\uc5b4\ub824\uc6b4"
+  },
+  {
+    "english": "CLASS",
+    "korean": "\ud074\ub798\uc2a4"
+  },
+  {
+    "english": "COLOR",
+    "korean": "\uc0c9\uc0c1"
+  },
+  {
+    "english": "COMPONENT",
+    "korean": "\uad6c\uc131\uc694\uc18c"
+  },
+  {
+    "english": "CONDITION",
+    "korean": "\uc0c1\ud669, \uc870\uac74"
+  },
+  {
+    "english": "CONSTRUCTOR",
+    "korean": "\uad6c\ucd95\uc790"
+  },
+  {
+    "english": "CONVENTION",
+    "korean": "\uaddc\uce59"
+  },
+  {
+    "english": "COPY-ON-MODIFY",
+    "korean": "\uc218\uc815\ud6c4\ubcf5\uc0ac"
+  },
+  {
+    "english": "ATOMIC VECTOR",
+    "korean": "\uc6d0\uc790 \ubca1\ud130"
+  },
+  {
+    "english": "CORE",
+    "korean": "\ud575\uc2ec(tidyverse \uc758)"
+  },
+  {
+    "english": "COSTRUCT",
+    "korean": "\uad6c\ucd95\uc790"
+  },
+  {
+    "english": "CURRENT CALL",
+    "korean": "\ud604\uc7ac\ud638\ucd9c"
+  },
+  {
+    "english": "DATA FRAME",
+    "korean": "\ub370\uc774\ud130 \ud504\ub808\uc784"
+  },
+  {
+    "english": "DATASET",
+    "korean": "\ub370\uc774\ud130\uc14b"
+  },
+  {
+    "english": "DATE",
+    "korean": "\ub370\uc774\ud2b8\ud615"
+  },
+  {
+    "english": "DATE-TIME",
+    "korean": "\ub370\uc774\ud2b8-\ud0c0\uc784\ud615"
+  },
+  {
+    "english": "DEREFERENCE",
+    "korean": "\uc5ed\ucc38\uc870"
+  },
+  {
+    "english": "DISPATCH",
+    "korean": "\ub514\uc2a4\ud328\uce58"
+  },
+  {
+    "english": "DOUBLES",
+    "korean": "\ub354\ube14\ud615"
+  },
+  {
+    "english": "ATTRIBUTES",
+    "korean": "\uc18d\uc131?"
+  },
+  {
+    "english": "DYNAMIC LOOKUP",
+    "korean": "\ub3d9\uc801 \ud0d0\uc0c9"
+  },
+  {
+    "english": "ELEMENT",
+    "korean": "\uc694\uc18c"
+  },
+  {
+    "english": "EMPTY ENVIRONMENT",
+    "korean": "\uacf5\ud658\uacbd"
+  },
+  {
+    "english": "ENCLOSING",
+    "korean": "\uc5d4\ud074\ub85c\uc9d5"
+  },
+  {
+    "english": "ENVIRONMENT",
+    "korean": "\ud658\uacbd"
+  },
+  {
+    "english": "ERROR",
+    "korean": "\uc5d0\ub7ec"
+  },
+  {
+    "english": "ESCAPE HATCH",
+    "korean": "\uc774\uc2a4\ucf00\uc774\ud504 \ud574\uce58"
+  },
+  {
+    "english": "ESCAPES",
+    "korean": "\uc774\uc2a4\ucf00\uc774\ud504"
+  },
+  {
+    "english": "EXAMPLE",
+    "korean": "\uc0ac\ub840"
+  },
+  {
+    "english": "EXPLICIT",
+    "korean": "\uba85\ubc31\ud55c,\uba85\uc2dc\uc801"
+  },
+  {
+    "english": "AUTHOR",
+    "korean": "\uc800\uc791\uc790"
+  },
+  {
+    "english": "EXPRESSION",
+    "korean": "\ud45c\ud604\uc2dd"
+  },
+  {
+    "english": "FACTOR",
+    "korean":
+      "\ud329\ud130\ud615, \ud329\ud130 (\ubb38\ub9e5\uc5d0 \ub530\ub77c)"
+  },
+  {
+    "english": "FACTORS",
+    "korean": "\ud329\ud130\ud615"
+  },
+  {
+    "english": "FEATURE",
+    "korean": "\ud2b9\uc131"
+  },
+  {
+    "english": "FIELD GUIDE",
+    "korean": "\ud544\ub4dc\uac00\uc774\ub4dc"
+  },
+  {
+    "english": "FIGURE",
+    "korean": "\uadf8\ub9bc"
+  },
+  {
+    "english": "FILE NAME",
+    "korean": "\ud30c\uc77c\uba85 \u2192 \ud30c\uc77c \uc774\ub984"
+  },
+  {
+    "english": "FLAT FILE",
+    "korean": "\ud50c\ub7ab \ud30c\uc77c?"
+  },
+  {
+    "english": "FOR LOOP",
+    "korean": "for \ub8e8\ud504"
+  },
+  {
+    "english": "FORMAL",
+    "korean": "\uacf5\uc2dd\uc801,\ud615\uc2dd\uc801"
+  },
+  {
+    "english": "BACKTICK",
+    "korean": "\uc5ed\ub530\uc634\ud45c"
+  },
+  {
+    "english": "FORMULA",
+    "korean": "\uacf5\uc2dd"
+  },
+  {
+    "english": "FROM MOST TO LEAST",
+    "korean": "\uc801\uc5b4\ub3c4 \ub300\ubd80\ubd84\uc758"
+  },
+  {
+    "english": "FUNCTIONAL",
+    "korean": "\uae30\ub2a5"
+  },
+  {
+    "english": "GATHER",
+    "korean": "\uc218\uc9d1\ud558\ub2e4"
+  },
+  {
+    "english": "GENERIC",
+    "korean": "\uc81c\ub108\ub9ad"
+  },
+  {
+    "english": "GOOGLE",
+    "korean": "\uad6c\uae00"
+  },
+  {
+    "english": "HASKELL",
+    "korean": "Haskell"
+  },
+  {
+    "english": "HELP",
+    "korean": "\ub3c4\uc6c0\ub9d0"
+  },
+  {
+    "english": "HELPER",
+    "korean": "\ub3c4\uc6b0\ubbf8"
+  },
+  {
+    "english": "HELPER FUNCTION",
+    "korean": "\ub3c4\uc6b0\ubbf8 \ud568\uc218"
+  },
+  {
+    "english": "BAR CHART",
+    "korean": "\ub9c9\ub300 \ucc28\ud2b8"
+  },
+  {
+    "english": "HELPER METHOD",
+    "korean": "\ub3c4\uc6b0\ubbf8 \uba54\uc18c\ub4dc"
+  },
+  {
+    "english": "HISTOGRAM",
+    "korean": "\ud788\uc2a4\ud1a0\uadf8\ub7a8"
+  },
+  {
+    "english": "IMPLEMENT",
+    "korean": "\uad6c\ud604\ud558\ub2e4"
+  },
+  {
+    "english": "INPUT",
+    "korean": "\uc785\ub825"
+  },
+  {
+    "english": "INTERNAL",
+    "korean": "\ub0b4\ubd80\uc758"
+  },
+  {
+    "english": "INVOCATION",
+    "korean": "\uae30\ub3d9"
+  },
+  {
+    "english": "ITERATION",
+    "korean": "\uc21c\ud658"
+  },
+  {
+    "english": "JOIN",
+    "korean": "\uc870\uc778"
+  },
+  {
+    "english": "KEY",
+    "korean": "\ud575\uc2ec, \ud575\uc2ec\uc801\uc778"
+  },
+  {
+    "english": "LAYER",
+    "korean": "\uce35"
+  },
+  {
+    "english": "BASE PACKAGE",
+    "korean": "Base\ud328\ud0a4\uc9c0"
+  },
+  {
+    "english": "LAZY",
+    "korean": "\ub290\uc2a8\ud55c"
+  },
+  {
+    "english": "LEGEND",
+    "korean": "\ubc94\ub840"
+  },
+  {
+    "english": "LEVELS",
+    "korean": "\uacc4\uae09"
+  },
+  {
+    "english": "LINE",
+    "korean": "\uc120, \uc904"
+  },
+  {
+    "english": "LIST",
+    "korean":
+      "\ubaa9\ub85d\uc774\ub77c\uace0 \ubc88\uc5ed\ud55c \uac83 \ub2e4\uc2dc \ud655\uc778 \ud560 \uac83, \ub370\uc774\ud130 \uad6c\uc870\ub85c\uc11c\ub294 \ub9ac\uc2a4\ud2b8, \uc77c\ubc18 \uc5b4\ud718\ub85c\uc11c\uc758 list\ub294 \ubaa9\ub85d"
+  },
+  {
+    "english": "LOOKUP",
+    "korean": "\ud0d0\uc0c9"
+  },
+  {
+    "english": "LOOKUP TABLE",
+    "korean": "lookup \ud14c\uc774\ube14"
+  },
+  {
+    "english": "LOOP",
+    "korean": "\ubc18\ubcf5"
+  },
+  {
+    "english": "MANIPULATION",
+    "korean": "\uc870\uc791 (string \uc744)"
+  },
+  {
+    "english": "MATCHING",
+    "korean": "\ub9e4\uce6d"
+  },
+  {
+    "english": "BASE R",
+    "korean": "\ubca0\uc774\uc2a4 R"
+  },
+  {
+    "english": "MISSING VALUE",
+    "korean": "\uacb0\uce21\uce58"
+  },
+  {
+    "english": "MUTABLE",
+    "korean":
+      "\ubcc0\ub355\uc2a4\ub7ec\uc6b4, \ubcc0\ud558\uae30 \uc26c\uc6b4, \uac00\ubcc0\uc131\uc758"
+  },
+  {
+    "english": "MUTATING JOIN",
+    "korean": null
+  },
+  {
+    "english": "NATIVE",
+    "korean": "\ub124\uc774\ud2f0\ube0c"
+  },
+  {
+    "english": "OBSERVATION",
+    "korean": "\uad00\uce21\uce58"
+  },
+  {
+    "english": "OUTPUT",
+    "korean": "\ucd9c\ub825"
+  },
+  {
+    "english": "PAIRLISTS",
+    "korean": "\ub9ac\uc2a4\ud2b8\uc9dd"
+  },
+  {
+    "english": "PANE",
+    "korean": "\uc601\uc5ed"
+  },
+  {
+    "english": "PARAMETER",
+    "korean":
+      "\ud1b5\uacc4 \ub9e5\ub77d: \ubaa8\uc218, \ud504\ub85c\uadf8\ub798\ubc0d \ub9e5\ub77d: \ud30c\ub77c\ubbf8\ud130"
+  },
+  {
+    "english": "PIPE",
+    "korean": "\ud30c\uc774\ud504"
+  }
+]
