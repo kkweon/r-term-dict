@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --inline --open"
+    "start": "webpack-dev-server --inline --open",
+    "build": "webpack --optimize-minimize",
+    "gh-page": "yarn run build && ghp-import -p public"
   },
   "devDependencies": {
     "elm-webpack-loader": "^4.4.0",
