@@ -1,1 +1,658 @@
-[{"english":"AFTER THE FACT","korean":"사후에"},{"english":"ARGUMENT","korean":"인자"},{"english":"BASE TYPES","korean":"베이스 타입"},{"english":"PLOT","korean":"플롯"},{"english":"PLOT","korean":"플롯(figure와 구분하기 위해 그냥 plot으로 함)"},{"english":"PREDICATES","korean":"논리서술자함수"},{"english":"PREREQUISITES","korean":"사전 준비"},{"english":"PRINT","korean":"인쇄, print on screen -> 출력?"},{"english":"PROMISE","korean":"프로미스"},{"english":"PROPERTY","korean":"성질"},{"english":"RECTANGLE","korean":"직사각형 (직방형?)"},{"english":"RECURSIVE CASE","korean":"재귀사례"},{"english":"REPLACE","korean":"대체하다, 바꾸다"},{"english":"BEFORE THE FACT","korean":"사전에"},{"english":"REPRESENTATION (OF DATA)","korean":"표현법"},{"english":"REPRODUCIBLE","korean":"재생산 가능한? 재현가능한?"},{"english":"RESULT","korean":"결과"},{"english":"RETURN","korean":"리턴"},{"english":"RSTUDIO","korean":"Rstudio"},{"english":"SEALED NAMESPACE","korean":"보호된 네임스페이스"},{"english":"SECTION","korean":"절"},{"english":"SEMANTICS","korean":"시맨틱스"},{"english":"SHORTHAND","korean":"줄여쓰기,단축표현,줄임말, ..."},{"english":"SIDE EFFECT","korean":"파급 효과"},{"english":"BEHAVIOR","korean":"행동"},{"english":"SIGNAL CLASS","korean":"신호클래스"},{"english":"SPECIFICATION","korean":"특정"},{"english":"SPLIT","korean":"쪼개다"},{"english":"STACKED BAR CHART","korean":"쌓인 막대 차트"},{"english":"STATEMENT","korean":"선언,구문"},{"english":"STRING","korean":"문자열"},{"english":"SUBCOMPACT CAR","korean":"소형차"},{"english":"SUBSET","korean":"subset"},{"english":"SUBSETTING","korean":"subset 작업"},{"english":"SUGAR","korean":"sugar"},{"english":"BEHAVIOURAL FOS","korean":"행동적FOs"},{"english":"SUMMARY","korean":"요약"},{"english":"SYNTACTIC","korean":"구문록적"},{"english":"SYNTAX","korean":"신택스, 구문, 문법"},{"english":"TABLE","korean":"테이블"},{"english":"TEMPLATED","korean":"규격화되어 있는"},{"english":"THROW AN ERROR","korean":"에러를 내뱉다"},{"english":"TIBBLE","korean":null},{"english":"TIDY","korean":null},{"english":"TIME","korean":"타임형"},{"english":"TOP-LEVEL OF FUNCTION","korean":"함수의최고수준"},{"english":"BIAS","korean":"편향"},{"english":"TREE","korean":"트리(나무로 번역하지 않음)"},{"english":"TRICKY","korean":"트리키"},{"english":"TRUE, TRUE","korean":"TRUE, 참"},{"english":"TWEAK","korean":"개조하다. 개선하다."},{"english":"TYPE","korean":"유형"},{"english":"UNDERLYING BASE TYPE","korean":"기저베이스타입"},{"english":"UNDERLYING VS. FUNDAMENTAL VS. BASIC","korean":"기전,근본,기초"},{"english":"UNDERSCORE","korean":null},{"english":"VALUE","korean":"값, 데이터값"},{"english":"WARNING","korean":"경고"},{"english":"BINARY OPERATOR","korean":"이진연산자"},{"english":"WE WANT","korean":"~가 필요하다"},{"english":"WHITESPACE","korean":"여백공간,여백문자"},{"english":"WHITESPACE","korean":"화이트스페이스"},{"english":"WORK","korean":null},{"english":"WORK WITH","korean":null},{"english":"WORKING SPACE","korean":"작업 공간"},{"english":"WRAPPER","korean":"래퍼"},{"english":"VARIATION","korean":"변동"},{"english":"MUTATE","korean":"변형? 열 변형? 열 변형 추가?"},{"english":"DATA CLEANSING","korean":"데이터 정제"},{"english":"BINWIDTH","korean":"빈너비"},{"english":"TRANSFORMATION","korean":"변형"},{"english":"DST","korean":"일광 절약 시간"},{"english":"DAY LIGHT SAVING TIME","korean":"일광 절약 시간"},{"english":"BODY","korean":"본문"},{"english":"BOX PLOT","korean":"상자 플롯"},{"english":"CALL","korean":"호출"},{"english":"ARITHMETIC","korean":"산술"},{"english":"CAPTURE","korean":"파악하다."},{"english":"CELL (OF DATA FRAME)","korean":"셀"},{"english":"CHALLENGE","korean":"어려운"},{"english":"CLASS","korean":"클래스"},{"english":"COLOR","korean":"색상"},{"english":"COMPONENT","korean":"구성요소"},{"english":"CONDITION","korean":"상황, 조건"},{"english":"CONSTRUCTOR","korean":"구축자"},{"english":"CONVENTION","korean":"규칙"},{"english":"COPY-ON-MODIFY","korean":"수정후복사"},{"english":"ATOMIC VECTOR","korean":"원자 벡터"},{"english":"CORE","korean":"핵심(tidyverse 의)"},{"english":"CONSTRUCTOR","korean":"구축자"},{"english":"CURRENT CALL","korean":"현재호출"},{"english":"DATA FRAME","korean":"데이터 프레임"},{"english":"DATASET","korean":"데이터셋"},{"english":"DATE","korean":"데이트형"},{"english":"DATE-TIME","korean":"데이트-타임형"},{"english":"DEREFERENCE","korean":"역참조"},{"english":"DISPATCH","korean":"디스패치"},{"english":"DOUBLES","korean":"더블형"},{"english":"ATTRIBUTES","korean":"속성?"},{"english":"DYNAMIC LOOKUP","korean":"동적 탐색"},{"english":"ELEMENT","korean":"요소"},{"english":"EMPTY ENVIRONMENT","korean":"공환경"},{"english":"ENCLOSING","korean":"엔클로징"},{"english":"ENVIRONMENT","korean":"환경"},{"english":"ERROR","korean":"에러"},{"english":"ESCAPE HATCH","korean":"이스케이프 해치"},{"english":"ESCAPES","korean":"이스케이프"},{"english":"EXAMPLE","korean":"사례"},{"english":"EXPLICIT","korean":"명백한,명시적"},{"english":"AUTHOR","korean":"저작자"},{"english":"EXPRESSION","korean":"표현식"},{"english":"FACTOR","korean":"팩터형, 팩터 (문맥에 따라)"},{"english":"FACTORS","korean":"팩터형"},{"english":"FEATURE","korean":"특성"},{"english":"FIELD GUIDE","korean":"필드가이드"},{"english":"FIGURE","korean":"그림"},{"english":"FILE NAME","korean":"파일명 → 파일 이름"},{"english":"FLAT FILE","korean":"플랫 파일?"},{"english":"FOR LOOP","korean":"for 루프"},{"english":"FORMAL","korean":"공식적,형식적"},{"english":"BACKTICK","korean":"역따옴표"},{"english":"FORMULA","korean":"공식"},{"english":"FROM MOST TO LEAST","korean":"적어도 대부분의"},{"english":"FUNCTIONAL","korean":"기능"},{"english":"GATHER","korean":"수집하다"},{"english":"GENERIC","korean":"제너릭"},{"english":"GOOGLE","korean":"구글"},{"english":"HASKELL","korean":"Haskell"},{"english":"HELP","korean":"도움말"},{"english":"HELPER","korean":"도우미"},{"english":"HELPER FUNCTION","korean":"도우미 함수"},{"english":"BAR CHART","korean":"막대 차트"},{"english":"HELPER METHOD","korean":"도우미 메소드"},{"english":"HISTOGRAM","korean":"히스토그램"},{"english":"IMPLEMENT","korean":"구현하다"},{"english":"INPUT","korean":"입력"},{"english":"INTERNAL","korean":"내부의"},{"english":"INVOCATION","korean":"기동"},{"english":"ITERATION","korean":"순환"},{"english":"JOIN","korean":"조인"},{"english":"KEY","korean":"핵심, 핵심적인"},{"english":"LAYER","korean":"층"},{"english":"BASE PACKAGE","korean":"Base패키지"},{"english":"LAZY","korean":"느슨한"},{"english":"LEGEND","korean":"범례"},{"english":"LEVELS","korean":"계급"},{"english":"LINE","korean":"선, 줄"},{"english":"LIST","korean":"목록이라고 번역한 것 다시 확인 할 것, 데이터 구조로서는 리스트, 일반 어휘로서의 list는 목록"},{"english":"LOOKUP","korean":"탐색"},{"english":"LOOKUP TABLE","korean":"lookup 테이블"},{"english":"LOOP","korean":"반복"},{"english":"MANIPULATION","korean":"조작 (string 을)"},{"english":"MATCHING","korean":"매칭"},{"english":"BASE R","korean":"베이스 R"},{"english":"MISSING VALUE","korean":"결측치"},{"english":"MUTABLE","korean":"변덕스러운, 변하기 쉬운, 가변성의"},{"english":"MUTATING JOIN","korean":null},{"english":"NATIVE","korean":"네이티브"},{"english":"OBSERVATION","korean":"관측치"},{"english":"OUTPUT","korean":"출력"},{"english":"PAIRLISTS","korean":"리스트짝"},{"english":"PANE","korean":"영역"},{"english":"PARAMETER","korean":"통계 맥락: 모수, 프로그래밍 맥락: 파라미터"},{"english":"PIPE","korean":"파이프"}]
+[
+  {
+    "english": "AFTER THE FACT",
+    "korean": "사후에"
+  },
+  {
+    "english": "EFFICIENCY",
+    "korean": "효율성"
+  },
+  {
+    "english": "ARGUMENT",
+    "korean": "인자"
+  },
+  {
+    "english": "BASE TYPES",
+    "korean": "베이스 타입"
+  },
+  {
+    "english": "PLOT",
+    "korean": "플롯"
+  },
+  {
+    "english": "PLOT",
+    "korean": "플롯(figure와 구분하기 위해 그냥 plot으로 함)"
+  },
+  {
+    "english": "PREDICATES",
+    "korean": "논리서술자함수"
+  },
+  {
+    "english": "PREREQUISITES",
+    "korean": "사전 준비"
+  },
+  {
+    "english": "PRINT",
+    "korean": "인쇄, print on screen -> 출력?"
+  },
+  {
+    "english": "PROMISE",
+    "korean": "프로미스"
+  },
+  {
+    "english": "PROPERTY",
+    "korean": "성질"
+  },
+  {
+    "english": "RECTANGLE",
+    "korean": "직사각형 (직방형?)"
+  },
+  {
+    "english": "RECURSIVE CASE",
+    "korean": "재귀사례"
+  },
+  {
+    "english": "REPLACE",
+    "korean": "대체하다, 바꾸다"
+  },
+  {
+    "english": "BEFORE THE FACT",
+    "korean": "사전에"
+  },
+  {
+    "english": "REPRESENTATION (OF DATA)",
+    "korean": "표현법"
+  },
+  {
+    "english": "REPRODUCIBLE",
+    "korean": "재생산 가능한? 재현가능한?"
+  },
+  {
+    "english": "RESULT",
+    "korean": "결과"
+  },
+  {
+    "english": "RETURN",
+    "korean": "리턴"
+  },
+  {
+    "english": "RSTUDIO",
+    "korean": "Rstudio"
+  },
+  {
+    "english": "SEALED NAMESPACE",
+    "korean": "보호된 네임스페이스"
+  },
+  {
+    "english": "SECTION",
+    "korean": "절"
+  },
+  {
+    "english": "SEMANTICS",
+    "korean": "시맨틱스"
+  },
+  {
+    "english": "SHORTHAND",
+    "korean": "줄여쓰기,단축표현,줄임말, ..."
+  },
+  {
+    "english": "SIDE EFFECT",
+    "korean": "파급 효과"
+  },
+  {
+    "english": "BEHAVIOR",
+    "korean": "행동"
+  },
+  {
+    "english": "SIGNAL CLASS",
+    "korean": "신호클래스"
+  },
+  {
+    "english": "SPECIFICATION",
+    "korean": "특정"
+  },
+  {
+    "english": "SPLIT",
+    "korean": "쪼개다"
+  },
+  {
+    "english": "STACKED BAR CHART",
+    "korean": "쌓인 막대 차트"
+  },
+  {
+    "english": "STATEMENT",
+    "korean": "선언,구문"
+  },
+  {
+    "english": "STRING",
+    "korean": "문자열"
+  },
+  {
+    "english": "SUBCOMPACT CAR",
+    "korean": "소형차"
+  },
+  {
+    "english": "SUBSET",
+    "korean": "subset"
+  },
+  {
+    "english": "SUBSETTING",
+    "korean": "subset 작업"
+  },
+  {
+    "english": "SUGAR",
+    "korean": "sugar"
+  },
+  {
+    "english": "BEHAVIOURAL FOS",
+    "korean": "행동적FOs"
+  },
+  {
+    "english": "SUMMARY",
+    "korean": "요약"
+  },
+  {
+    "english": "SYNTACTIC",
+    "korean": "구문록적"
+  },
+  {
+    "english": "SYNTAX",
+    "korean": "신택스, 구문, 문법"
+  },
+  {
+    "english": "TABLE",
+    "korean": "테이블"
+  },
+  {
+    "english": "TEMPLATED",
+    "korean": "규격화되어 있는"
+  },
+  {
+    "english": "THROW AN ERROR",
+    "korean": "에러를 내뱉다"
+  },
+  {
+    "english": "TIBBLE",
+    "korean": null
+  },
+  {
+    "english": "TIDY",
+    "korean": null
+  },
+  {
+    "english": "TIME",
+    "korean": "타임형"
+  },
+  {
+    "english": "TOP-LEVEL OF FUNCTION",
+    "korean": "함수의최고수준"
+  },
+  {
+    "english": "BIAS",
+    "korean": "편향"
+  },
+  {
+    "english": "TREE",
+    "korean": "트리(나무로 번역하지 않음)"
+  },
+  {
+    "english": "TRICKY",
+    "korean": "트리키"
+  },
+  {
+    "english": "TRUE, TRUE",
+    "korean": "TRUE, 참"
+  },
+  {
+    "english": "TWEAK",
+    "korean": "개조하다. 개선하다."
+  },
+  {
+    "english": "TYPE",
+    "korean": "유형"
+  },
+  {
+    "english": "UNDERLYING BASE TYPE",
+    "korean": "기저베이스타입"
+  },
+  {
+    "english": "UNDERLYING VS. FUNDAMENTAL VS. BASIC",
+    "korean": "기전,근본,기초"
+  },
+  {
+    "english": "UNDERSCORE",
+    "korean": null
+  },
+  {
+    "english": "VALUE",
+    "korean": "값, 데이터값"
+  },
+  {
+    "english": "WARNING",
+    "korean": "경고"
+  },
+  {
+    "english": "BINARY OPERATOR",
+    "korean": "이진연산자"
+  },
+  {
+    "english": "WE WANT",
+    "korean": "~가 필요하다"
+  },
+  {
+    "english": "WHITESPACE",
+    "korean": "여백공간,여백문자"
+  },
+  {
+    "english": "WHITESPACE",
+    "korean": "화이트스페이스"
+  },
+  {
+    "english": "WORK",
+    "korean": null
+  },
+  {
+    "english": "WORK WITH",
+    "korean": null
+  },
+  {
+    "english": "WORKING SPACE",
+    "korean": "작업 공간"
+  },
+  {
+    "english": "WRAPPER",
+    "korean": "래퍼"
+  },
+  {
+    "english": "VARIATION",
+    "korean": "변동"
+  },
+  {
+    "english": "MUTATE",
+    "korean": "변형? 열 변형? 열 변형 추가?"
+  },
+  {
+    "english": "DATA CLEANSING",
+    "korean": "데이터 정제"
+  },
+  {
+    "english": "BINWIDTH",
+    "korean": "빈너비"
+  },
+  {
+    "english": "TRANSFORMATION",
+    "korean": "변형"
+  },
+  {
+    "english": "DST",
+    "korean": "일광 절약 시간"
+  },
+  {
+    "english": "DAY LIGHT SAVING TIME",
+    "korean": "일광 절약 시간"
+  },
+  {
+    "english": "BODY",
+    "korean": "본문"
+  },
+  {
+    "english": "BOX PLOT",
+    "korean": "상자 플롯"
+  },
+  {
+    "english": "CALL",
+    "korean": "호출"
+  },
+  {
+    "english": "ARITHMETIC",
+    "korean": "산술"
+  },
+  {
+    "english": "CAPTURE",
+    "korean": "파악하다."
+  },
+  {
+    "english": "CELL (OF DATA FRAME)",
+    "korean": "셀"
+  },
+  {
+    "english": "CHALLENGE",
+    "korean": "어려운"
+  },
+  {
+    "english": "CLASS",
+    "korean": "클래스"
+  },
+  {
+    "english": "COLOR",
+    "korean": "색상"
+  },
+  {
+    "english": "COMPONENT",
+    "korean": "구성요소"
+  },
+  {
+    "english": "CONDITION",
+    "korean": "상황, 조건"
+  },
+  {
+    "english": "CONSTRUCTOR",
+    "korean": "구축자"
+  },
+  {
+    "english": "CONVENTION",
+    "korean": "규칙"
+  },
+  {
+    "english": "COPY-ON-MODIFY",
+    "korean": "수정후복사"
+  },
+  {
+    "english": "ATOMIC VECTOR",
+    "korean": "원자 벡터"
+  },
+  {
+    "english": "CORE",
+    "korean": "핵심(tidyverse 의)"
+  },
+  {
+    "english": "CONSTRUCTOR",
+    "korean": "구축자"
+  },
+  {
+    "english": "CURRENT CALL",
+    "korean": "현재호출"
+  },
+  {
+    "english": "DATA FRAME",
+    "korean": "데이터 프레임"
+  },
+  {
+    "english": "DATASET",
+    "korean": "데이터셋"
+  },
+  {
+    "english": "DATE",
+    "korean": "데이트형"
+  },
+  {
+    "english": "DATE-TIME",
+    "korean": "데이트-타임형"
+  },
+  {
+    "english": "DEREFERENCE",
+    "korean": "역참조"
+  },
+  {
+    "english": "DISPATCH",
+    "korean": "디스패치"
+  },
+  {
+    "english": "DOUBLES",
+    "korean": "더블형"
+  },
+  {
+    "english": "ATTRIBUTES",
+    "korean": "속성?"
+  },
+  {
+    "english": "DYNAMIC LOOKUP",
+    "korean": "동적 탐색"
+  },
+  {
+    "english": "ELEMENT",
+    "korean": "요소"
+  },
+  {
+    "english": "EMPTY ENVIRONMENT",
+    "korean": "공환경"
+  },
+  {
+    "english": "ENCLOSING",
+    "korean": "엔클로징"
+  },
+  {
+    "english": "ENVIRONMENT",
+    "korean": "환경"
+  },
+  {
+    "english": "ERROR",
+    "korean": "에러"
+  },
+  {
+    "english": "ESCAPE HATCH",
+    "korean": "이스케이프 해치"
+  },
+  {
+    "english": "ESCAPES",
+    "korean": "이스케이프"
+  },
+  {
+    "english": "EXAMPLE",
+    "korean": "사례"
+  },
+  {
+    "english": "EXPLICIT",
+    "korean": "명백한,명시적"
+  },
+  {
+    "english": "AUTHOR",
+    "korean": "저작자"
+  },
+  {
+    "english": "EXPRESSION",
+    "korean": "표현식"
+  },
+  {
+    "english": "FACTOR",
+    "korean": "팩터형, 팩터 (문맥에 따라)"
+  },
+  {
+    "english": "FACTORS",
+    "korean": "팩터형"
+  },
+  {
+    "english": "FEATURE",
+    "korean": "특성"
+  },
+  {
+    "english": "FIELD GUIDE",
+    "korean": "필드가이드"
+  },
+  {
+    "english": "FIGURE",
+    "korean": "그림"
+  },
+  {
+    "english": "FILE NAME",
+    "korean": "파일명 → 파일 이름"
+  },
+  {
+    "english": "FLAT FILE",
+    "korean": "플랫 파일?"
+  },
+  {
+    "english": "FOR LOOP",
+    "korean": "for 루프"
+  },
+  {
+    "english": "FORMAL",
+    "korean": "공식적,형식적"
+  },
+  {
+    "english": "BACKTICK",
+    "korean": "역따옴표"
+  },
+  {
+    "english": "FORMULA",
+    "korean": "공식"
+  },
+  {
+    "english": "FROM MOST TO LEAST",
+    "korean": "적어도 대부분의"
+  },
+  {
+    "english": "FUNCTIONAL",
+    "korean": "기능"
+  },
+  {
+    "english": "GATHER",
+    "korean": "수집하다"
+  },
+  {
+    "english": "GENERIC",
+    "korean": "제너릭"
+  },
+  {
+    "english": "GOOGLE",
+    "korean": "구글"
+  },
+  {
+    "english": "HASKELL",
+    "korean": "Haskell"
+  },
+  {
+    "english": "HELP",
+    "korean": "도움말"
+  },
+  {
+    "english": "HELPER",
+    "korean": "도우미"
+  },
+  {
+    "english": "HELPER FUNCTION",
+    "korean": "도우미 함수"
+  },
+  {
+    "english": "BAR CHART",
+    "korean": "막대 차트"
+  },
+  {
+    "english": "HELPER METHOD",
+    "korean": "도우미 메소드"
+  },
+  {
+    "english": "HISTOGRAM",
+    "korean": "히스토그램"
+  },
+  {
+    "english": "IMPLEMENT",
+    "korean": "구현하다"
+  },
+  {
+    "english": "INPUT",
+    "korean": "입력"
+  },
+  {
+    "english": "INTERNAL",
+    "korean": "내부의"
+  },
+  {
+    "english": "INVOCATION",
+    "korean": "기동"
+  },
+  {
+    "english": "ITERATION",
+    "korean": "순환"
+  },
+  {
+    "english": "JOIN",
+    "korean": "조인"
+  },
+  {
+    "english": "KEY",
+    "korean": "핵심, 핵심적인"
+  },
+  {
+    "english": "LAYER",
+    "korean": "층"
+  },
+  {
+    "english": "BASE PACKAGE",
+    "korean": "Base패키지"
+  },
+  {
+    "english": "LAZY",
+    "korean": "느슨한"
+  },
+  {
+    "english": "LEGEND",
+    "korean": "범례"
+  },
+  {
+    "english": "LEVELS",
+    "korean": "계급"
+  },
+  {
+    "english": "LINE",
+    "korean": "선, 줄"
+  },
+  {
+    "english": "LIST",
+    "korean": "목록이라고 번역한 것 다시 확인 할 것, 데이터 구조로서는 리스트, 일반 어휘로서의 list는 목록"
+  },
+  {
+    "english": "LOOKUP",
+    "korean": "탐색"
+  },
+  {
+    "english": "LOOKUP TABLE",
+    "korean": "lookup 테이블"
+  },
+  {
+    "english": "LOOP",
+    "korean": "반복"
+  },
+  {
+    "english": "MANIPULATION",
+    "korean": "조작 (string 을)"
+  },
+  {
+    "english": "MATCHING",
+    "korean": "매칭"
+  },
+  {
+    "english": "BASE R",
+    "korean": "베이스 R"
+  },
+  {
+    "english": "MISSING VALUE",
+    "korean": "결측치"
+  },
+  {
+    "english": "MUTABLE",
+    "korean": "변덕스러운, 변하기 쉬운, 가변성의"
+  },
+  {
+    "english": "MUTATING JOIN",
+    "korean": null
+  },
+  {
+    "english": "NATIVE",
+    "korean": "네이티브"
+  },
+  {
+    "english": "OBSERVATION",
+    "korean": "관측치"
+  },
+  {
+    "english": "OUTPUT",
+    "korean": "출력"
+  },
+  {
+    "english": "PAIRLISTS",
+    "korean": "리스트짝"
+  },
+  {
+    "english": "PANE",
+    "korean": "영역"
+  },
+  {
+    "english": "PARAMETER",
+    "korean": "통계 맥락: 모수, 프로그래밍 맥락: 파라미터"
+  },
+  {
+    "english": "PIPE",
+    "korean": "파이프"
+  }
+]
