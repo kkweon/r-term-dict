@@ -9,6 +9,10 @@ import Html.Attributes
         , autofocus
         , value
         , placeholder
+        , href
+        , target
+        , src
+        , alt
         )
 import Html.Events exposing (on, onInput, keyCode)
 
@@ -106,6 +110,51 @@ onKeyDown tagger =
     on "keydown" (Json.map tagger keyCode)
 
 
+naverSearchBtn : Model -> Html msg
+naverSearchBtn model =
+    if String.isEmpty model.term then
+        div [] []
+    else
+        a
+            [ class "btn btn-danger"
+            , href <| "http://endic.naver.com/search.nhn?sLn=kr&query=" ++ model.term
+            , target "_blank"
+            ]
+            [ text "Naver사전 검색"
+            ]
+
+
+helpText : Html msg
+helpText =
+    div []
+        [ h2 []
+            [ text "R Translation Dictionary" ]
+        , p
+            []
+            [ text "ESC - Input Clear" ]
+        , div
+            [ style
+                [ ( "display", "block" )
+                , ( "position", "fixed" )
+                , ( "top", "2%" )
+                , ( "right", "2%" )
+                , ( "width", "30px" )
+                , ( "height", "30px" )
+                ]
+            ]
+            [ githubBtn ]
+        ]
+
+
+githubBtn : Html msg
+githubBtn =
+    a
+        [ href "https://github.com/kkweon/r-term-dict"
+        , target "_blank"
+        ]
+        [ img [ src "./github.svg", alt "Github" ] [] ]
+
+
 view : Model -> Html Msg
 view model =
     let
@@ -148,8 +197,18 @@ view model =
                     ]
     in
         div [ class "container" ]
-            [ div [ class "row mt-5" ] [ searchBar ]
+            [ div [ class "row mt-5" ] [ helpText ]
+            , div [ class "row" ] [ searchBar ]
             , div [ class "row" ] [ words ]
+            , div
+                [ style
+                    [ ( "bottom", "10%" )
+                    , ( "position", "fixed" )
+                    , ( "right", "5%" )
+                    ]
+                ]
+                [ naverSearchBtn model
+                ]
             ]
 
 
