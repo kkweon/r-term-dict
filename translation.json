@@ -8,6 +8,10 @@
     "korean": "효율성"
   },
   {
+    "english": "CHAPTER",
+    "korean": "장"
+  },
+  {
     "english": "ARGUMENT",
     "korean": "인자"
   },
@@ -589,7 +593,8 @@
   },
   {
     "english": "LIST",
-    "korean": "목록이라고 번역한 것 다시 확인 할 것, 데이터 구조로서는 리스트, 일반 어휘로서의 list는 목록"
+    "korean":
+      "목록이라고 번역한 것 다시 확인 할 것, 데이터 구조로서는 리스트, 일반 어휘로서의 list는 목록"
   },
   {
     "english": "LOOKUP",
