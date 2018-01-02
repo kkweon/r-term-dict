@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --inline --open",
     "build": "webpack --optimize-minimize",
+    "push": "git commit -am '[update] auto push' && git push origin master",
     "gh-page": "yarn run build && ghp-import -p public"
   },
   "devDependencies": {
