@@ -1,12 +1,677 @@
 {
   "data": [
     {
-      "ko": "한글",
-      "en": "Korean"
+      "en": "AFTER THE FACT",
+      "ko": "사후에"
     },
     {
-      "ko": "절",
-      "en": "Section"
+      "en": "EFFICIENCY",
+      "ko": "효율성"
+    },
+    {
+      "en": "EXERCISE",
+      "ko": "연습 문제"
+    },
+    {
+      "en": "REFACTORING",
+      "ko": "리팩토링"
+    },
+    {
+      "en": "MATRIX",
+      "ko": "행렬"
+    },
+    {
+      "en": "CHAPTER",
+      "ko": "장"
+    },
+    {
+      "en": "ARGUMENT",
+      "ko": "인자"
+    },
+    {
+      "en": "BASE TYPES",
+      "ko": "베이스 타입"
+    },
+    {
+      "en": "PLOT",
+      "ko": "플롯"
+    },
+    {
+      "en": "PLOT",
+      "ko": "플롯(figure와 구분하기 위해 그냥 plot으로 함)"
+    },
+    {
+      "en": "PREDICATES",
+      "ko": "논리서술자함수"
+    },
+    {
+      "en": "PREREQUISITES",
+      "ko": "사전 준비"
+    },
+    {
+      "en": "PRINT",
+      "ko": "인쇄, print on screen -> 출력?"
+    },
+    {
+      "en": "PROMISE",
+      "ko": "프로미스"
+    },
+    {
+      "en": "PROPERTY",
+      "ko": "성질"
+    },
+    {
+      "en": "RECTANGLE",
+      "ko": "직사각형 (직방형?)"
+    },
+    {
+      "en": "RECURSIVE CASE",
+      "ko": "재귀사례"
+    },
+    {
+      "en": "REPLACE",
+      "ko": "대체하다, 바꾸다"
+    },
+    {
+      "en": "BEFORE THE FACT",
+      "ko": "사전에"
+    },
+    {
+      "en": "REPRESENTATION (OF DATA)",
+      "ko": "표현법"
+    },
+    {
+      "en": "REPRODUCIBLE",
+      "ko": "재생산 가능한? 재현가능한?"
+    },
+    {
+      "en": "RESULT",
+      "ko": "결과"
+    },
+    {
+      "en": "RETURN",
+      "ko": "리턴"
+    },
+    {
+      "en": "RSTUDIO",
+      "ko": "Rstudio"
+    },
+    {
+      "en": "SEALED NAMESPACE",
+      "ko": "보호된 네임스페이스"
+    },
+    {
+      "en": "SECTION",
+      "ko": "절"
+    },
+    {
+      "en": "SEMANTICS",
+      "ko": "시맨틱스"
+    },
+    {
+      "en": "SHORTHAND",
+      "ko": "줄여쓰기,단축표현,줄임말, ..."
+    },
+    {
+      "en": "SIDE EFFECT",
+      "ko": "파급 효과"
+    },
+    {
+      "en": "BEHAVIOR",
+      "ko": "행동"
+    },
+    {
+      "en": "SIGNAL CLASS",
+      "ko": "신호클래스"
+    },
+    {
+      "en": "SPECIFICATION",
+      "ko": "특정"
+    },
+    {
+      "en": "SPLIT",
+      "ko": "쪼개다"
+    },
+    {
+      "en": "STACKED BAR CHART",
+      "ko": "쌓인 막대 차트"
+    },
+    {
+      "en": "STATEMENT",
+      "ko": "선언,구문"
+    },
+    {
+      "en": "STRING",
+      "ko": "문자열"
+    },
+    {
+      "en": "SUBCOMPACT CAR",
+      "ko": "소형차"
+    },
+    {
+      "en": "SUBSET",
+      "ko": "subset"
+    },
+    {
+      "en": "SUBSETTING",
+      "ko": "subset 작업"
+    },
+    {
+      "en": "SUGAR",
+      "ko": "sugar"
+    },
+    {
+      "en": "BEHAVIOURAL FOS",
+      "ko": "행동적FOs"
+    },
+    {
+      "en": "SUMMARY",
+      "ko": "요약"
+    },
+    {
+      "en": "SYNTACTIC",
+      "ko": "구문록적"
+    },
+    {
+      "en": "SYNTAX",
+      "ko": "신택스, 구문, 문법"
+    },
+    {
+      "en": "TABLE",
+      "ko": "테이블"
+    },
+    {
+      "en": "TEMPLATED",
+      "ko": "규격화되어 있는"
+    },
+    {
+      "en": "THROW AN ERROR",
+      "ko": "에러를 내뱉다"
+    },
+    {
+      "en": "TIBBLE",
+      "ko": "???"
+    },
+    {
+      "en": "TIDY",
+      "ko": "???"
+    },
+    {
+      "en": "TIME",
+      "ko": "타임형"
+    },
+    {
+      "en": "TOP-LEVEL OF FUNCTION",
+      "ko": "함수의최고수준"
+    },
+    {
+      "en": "BIAS",
+      "ko": "편향"
+    },
+    {
+      "en": "TREE",
+      "ko": "트리(나무로 번역하지 않음)"
+    },
+    {
+      "en": "TRICKY",
+      "ko": "트리키"
+    },
+    {
+      "en": "TRUE, TRUE",
+      "ko": "TRUE, 참"
+    },
+    {
+      "en": "TWEAK",
+      "ko": "개조하다. 개선하다."
+    },
+    {
+      "en": "TYPE",
+      "ko": "유형"
+    },
+    {
+      "en": "UNDERLYING BASE TYPE",
+      "ko": "기저베이스타입"
+    },
+    {
+      "en": "UNDERLYING VS. FUNDAMENTAL VS. BASIC",
+      "ko": "기전,근본,기초"
+    },
+    {
+      "en": "UNDERSCORE",
+      "ko": "???"
+    },
+    {
+      "en": "VALUE",
+      "ko": "값, 데이터값"
+    },
+    {
+      "en": "WARNING",
+      "ko": "경고"
+    },
+    {
+      "en": "BINARY OPERATOR",
+      "ko": "이진연산자"
+    },
+    {
+      "en": "WE WANT",
+      "ko": "~가 필요하다"
+    },
+    {
+      "en": "WHITESPACE",
+      "ko": "여백공간,여백문자"
+    },
+    {
+      "en": "WHITESPACE",
+      "ko": "화이트스페이스"
+    },
+    {
+      "en": "WORK",
+      "ko": "???"
+    },
+    {
+      "en": "WORK WITH",
+      "ko": "???"
+    },
+    {
+      "en": "WORKING SPACE",
+      "ko": "작업 공간"
+    },
+    {
+      "en": "WRAPPER",
+      "ko": "래퍼"
+    },
+    {
+      "en": "VARIATION",
+      "ko": "변동"
+    },
+    {
+      "en": "MUTATE",
+      "ko": "변형? 열 변형? 열 변형 추가?"
+    },
+    {
+      "en": "DATA CLEANSING",
+      "ko": "데이터 정제"
+    },
+    {
+      "en": "BINWIDTH",
+      "ko": "빈너비"
+    },
+    {
+      "en": "TRANSFORMATION",
+      "ko": "변형"
+    },
+    {
+      "en": "DST",
+      "ko": "일광 절약 시간"
+    },
+    {
+      "en": "DAY LIGHT SAVING TIME",
+      "ko": "일광 절약 시간"
+    },
+    {
+      "en": "BODY",
+      "ko": "본문"
+    },
+    {
+      "en": "BOX PLOT",
+      "ko": "상자 플롯"
+    },
+    {
+      "en": "CALL",
+      "ko": "호출"
+    },
+    {
+      "en": "ARITHMETIC",
+      "ko": "산술"
+    },
+    {
+      "en": "CAPTURE",
+      "ko": "파악하다."
+    },
+    {
+      "en": "CELL (OF DATA FRAME)",
+      "ko": "셀"
+    },
+    {
+      "en": "CHALLENGE",
+      "ko": "어려운"
+    },
+    {
+      "en": "CLASS",
+      "ko": "클래스"
+    },
+    {
+      "en": "COLOR",
+      "ko": "색상"
+    },
+    {
+      "en": "COMPONENT",
+      "ko": "구성요소"
+    },
+    {
+      "en": "CONDITION",
+      "ko": "상황, 조건"
+    },
+    {
+      "en": "CONSTRUCTOR",
+      "ko": "구축자"
+    },
+    {
+      "en": "CONVENTION",
+      "ko": "규칙"
+    },
+    {
+      "en": "COPY-ON-MODIFY",
+      "ko": "수정후복사"
+    },
+    {
+      "en": "ATOMIC VECTOR",
+      "ko": "원자 벡터"
+    },
+    {
+      "en": "CORE",
+      "ko": "핵심(tidyverse 의)"
+    },
+    {
+      "en": "CONSTRUCTOR",
+      "ko": "구축자"
+    },
+    {
+      "en": "CURRENT CALL",
+      "ko": "현재호출"
+    },
+    {
+      "en": "DATA FRAME",
+      "ko": "데이터 프레임"
+    },
+    {
+      "en": "DATASET",
+      "ko": "데이터셋"
+    },
+    {
+      "en": "DATE",
+      "ko": "데이트형"
+    },
+    {
+      "en": "DATE-TIME",
+      "ko": "데이트-타임형"
+    },
+    {
+      "en": "DEREFERENCE",
+      "ko": "역참조"
+    },
+    {
+      "en": "DISPATCH",
+      "ko": "디스패치"
+    },
+    {
+      "en": "DOUBLES",
+      "ko": "더블형"
+    },
+    {
+      "en": "ATTRIBUTES",
+      "ko": "속성?"
+    },
+    {
+      "en": "DYNAMIC LOOKUP",
+      "ko": "동적 탐색"
+    },
+    {
+      "en": "ELEMENT",
+      "ko": "요소"
+    },
+    {
+      "en": "EMPTY ENVIRONMENT",
+      "ko": "공환경"
+    },
+    {
+      "en": "ENCLOSING",
+      "ko": "엔클로징"
+    },
+    {
+      "en": "ENVIRONMENT",
+      "ko": "환경"
+    },
+    {
+      "en": "ERROR",
+      "ko": "에러"
+    },
+    {
+      "en": "ESCAPE HATCH",
+      "ko": "이스케이프 해치"
+    },
+    {
+      "en": "ESCAPES",
+      "ko": "이스케이프"
+    },
+    {
+      "en": "EXAMPLE",
+      "ko": "사례"
+    },
+    {
+      "en": "EXPLICIT",
+      "ko": "명백한,명시적"
+    },
+    {
+      "en": "AUTHOR",
+      "ko": "저작자"
+    },
+    {
+      "en": "EXPRESSION",
+      "ko": "표현식"
+    },
+    {
+      "en": "FACTOR",
+      "ko": "팩터형, 팩터 (문맥에 따라)"
+    },
+    {
+      "en": "FACTORS",
+      "ko": "팩터형"
+    },
+    {
+      "en": "FEATURE",
+      "ko": "특성"
+    },
+    {
+      "en": "FIELD GUIDE",
+      "ko": "필드가이드"
+    },
+    {
+      "en": "FIGURE",
+      "ko": "그림"
+    },
+    {
+      "en": "FILE NAME",
+      "ko": "파일명 → 파일 이름"
+    },
+    {
+      "en": "FLAT FILE",
+      "ko": "플랫 파일?"
+    },
+    {
+      "en": "FOR LOOP",
+      "ko": "for 루프"
+    },
+    {
+      "en": "FORMAL",
+      "ko": "공식적,형식적"
+    },
+    {
+      "en": "BACKTICK",
+      "ko": "역따옴표"
+    },
+    {
+      "en": "FORMULA",
+      "ko": "공식"
+    },
+    {
+      "en": "FROM MOST TO LEAST",
+      "ko": "적어도 대부분의"
+    },
+    {
+      "en": "FUNCTIONAL",
+      "ko": "기능"
+    },
+    {
+      "en": "GATHER",
+      "ko": "수집하다"
+    },
+    {
+      "en": "GENERIC",
+      "ko": "제너릭"
+    },
+    {
+      "en": "GOOGLE",
+      "ko": "구글"
+    },
+    {
+      "en": "HASKELL",
+      "ko": "Haskell"
+    },
+    {
+      "en": "HELP",
+      "ko": "도움말"
+    },
+    {
+      "en": "HELPER",
+      "ko": "도우미"
+    },
+    {
+      "en": "HELPER FUNCTION",
+      "ko": "도우미 함수"
+    },
+    {
+      "en": "BAR CHART",
+      "ko": "막대 차트"
+    },
+    {
+      "en": "HELPER METHOD",
+      "ko": "도우미 메소드"
+    },
+    {
+      "en": "HISTOGRAM",
+      "ko": "히스토그램"
+    },
+    {
+      "en": "IMPLEMENT",
+      "ko": "구현하다"
+    },
+    {
+      "en": "INPUT",
+      "ko": "입력"
+    },
+    {
+      "en": "INTERNAL",
+      "ko": "내부의"
+    },
+    {
+      "en": "INVOCATION",
+      "ko": "기동"
+    },
+    {
+      "en": "ITERATION",
+      "ko": "순환"
+    },
+    {
+      "en": "JOIN",
+      "ko": "조인"
+    },
+    {
+      "en": "KEY",
+      "ko": "핵심, 핵심적인"
+    },
+    {
+      "en": "LAYER",
+      "ko": "층"
+    },
+    {
+      "en": "BASE PACKAGE",
+      "ko": "Base패키지"
+    },
+    {
+      "en": "LAZY",
+      "ko": "느슨한"
+    },
+    {
+      "en": "LEGEND",
+      "ko": "범례"
+    },
+    {
+      "en": "LEVELS",
+      "ko": "계급"
+    },
+    {
+      "en": "LINE",
+      "ko": "선, 줄"
+    },
+    {
+      "en": "LIST",
+      "ko":
+        "목록이라고 번역한 것 다시 확인 할 것, 데이터 구조로서는 리스트, 일반 어휘로서의 list는 목록"
+    },
+    {
+      "en": "LOOKUP",
+      "ko": "탐색"
+    },
+    {
+      "en": "LOOKUP TABLE",
+      "ko": "lookup 테이블"
+    },
+    {
+      "en": "LOOP",
+      "ko": "반복"
+    },
+    {
+      "en": "MANIPULATION",
+      "ko": "조작 (string 을)"
+    },
+    {
+      "en": "MATCHING",
+      "ko": "매칭"
+    },
+    {
+      "en": "BASE R",
+      "ko": "베이스 R"
+    },
+    {
+      "en": "MISSING VALUE",
+      "ko": "결측치"
+    },
+    {
+      "en": "MUTABLE",
+      "ko": "변덕스러운, 변하기 쉬운, 가변성의"
+    },
+    {
+      "en": "MUTATING JOIN",
+      "ko": "???"
+    },
+    {
+      "en": "NATIVE",
+      "ko": "네이티브"
+    },
+    {
+      "en": "OBSERVATION",
+      "ko": "관측치"
+    },
+    {
+      "en": "OUTPUT",
+      "ko": "출력"
+    },
+    {
+      "en": "PAIRLISTS",
+      "ko": "리스트짝"
+    },
+    {
+      "en": "PANE",
+      "ko": "영역"
+    },
+    {
+      "en": "PARAMETER",
+      "ko": "통계 맥락: 모수, 프로그래밍 맥락: 파라미터"
+    },
+    {
+      "en": "PIPE",
+      "ko": "파이프"
     }
   ]
 }
