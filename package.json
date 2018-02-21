@@ -10,7 +10,8 @@
     "test": "NODE_ENV=test mocha -r ts-node/register tests/**/*.ts",
     "docker:dev": "NODE_ENV=development yarn docker:clean && docker-compose -f docker-compose.yml up",
     "docker:test": "NODE_ENV=test yarn docker:clean && docker-compose -f docker-compose.yml -f docker-compose.test.yml up",
-    "docker:clean": "docker-compose down -v"
+    "docker:clean": "docker-compose down -v",
+    "docker:prod": "NODE_ENV=production yarn docker:clean && docker-compose -f docker-compose.yml -f docker-compose.prod.yml up"
   },
   "dependencies": {
     "body-parser": "^1.18.2",

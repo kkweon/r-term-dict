@@ -1,0 +1,15 @@
+version: "3"
+services:
+  server:
+    build: .
+    environment:
+      - PORT=4000
+      - DB_URI=mongodb://db/prod
+      - NODE_ENV=production
+    ports:
+      - 4000:4000
+    command: >
+      bash -c "yarn tsc && node build/bin/server.js"
+
+  db:
+    image: mongo:latest

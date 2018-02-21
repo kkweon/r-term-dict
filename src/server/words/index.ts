@@ -1,6 +1,5 @@
 import * as express from "express";
 import WordController from "./controller";
-import { resolve } from "path";
 
 const router: express.Router = express.Router();
 
