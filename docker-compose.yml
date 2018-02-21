@@ -1,0 +1,30 @@
+version: "3"
+services:
+  server:
+    build: .
+    volumes:
+      - .:/code
+    depends_on:
+      - db
+    environment:
+      - PORT=4000
+      - DB_URI=mongodb://db/dev
+      - NODE_ENV=development
+    ports:
+      - 4000:4000
+
+  db:
+    image: mongo:latest
+    volumes:
+      - test-volume:/data/db
+
+  admin:
+    image: mongo-express:latest
+    ports:
+      - 8081:8081
+    environment:
+      - ME_CONFIG_MONGODB_SERVER=db
+
+
+volumes:
+  test-volume:

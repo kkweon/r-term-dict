@@ -1,0 +1,16 @@
+version: "3"
+services:
+  server:
+    build: .
+    environment:
+      - PORT=9000
+      - DB_URI=mongodb://db/test
+      - NODE_ENV=test
+    ports:
+      - 9000:9000
+    command: >
+      bash -c "yarn ts-node bin/run_seeds.ts &&
+               yarn test"
+
+  db:
+    image: mongo:latest
