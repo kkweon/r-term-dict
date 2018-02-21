@@ -2,5 +2,5 @@
   "watch": ["src"],
   "ext": "ts",
   "ignore": ["src/**/*.spec.ts"],
-  "exec": "ts-node ./bin/server.ts"
+  "exec": "ts-node ./bin/server.ts --type-check"
 }

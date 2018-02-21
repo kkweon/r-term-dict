@@ -1,6 +1,6 @@
 import devConfig from "./dev";
-import testConfig from "./test";
 import prodConfig from "./prod";
+import testConfig from "./test";
 
 let config: IConfig;
 if (process.env.NODE_ENV === "test") config = testConfig;

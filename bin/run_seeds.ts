@@ -1,6 +1,6 @@
 import * as fs from "fs";
-import * as path from "path";
 import mongoose from "mongoose";
+import * as path from "path";
 
 import config from "../src/config";
 import { Word } from "../src/server/words";
@@ -13,7 +13,7 @@ interface ISeedData {
 let READY_TO_CLOSE: boolean = false;
 mongoose
   .connect(config.db)
-  .then(server => {
+  .then((server: typeof mongoose) => {
     fs.readFile(
       path.resolve(__dirname, "../data/words.json"),
       "utf-8",
@@ -27,7 +27,7 @@ mongoose
             server.connection.close();
             READY_TO_CLOSE = true;
           })
-          .catch(err => {
+          .catch((err: any) => {
             console.error("[FAIL] ", err);
             server.connection.close();
             READY_TO_CLOSE = true;
@@ -35,7 +35,7 @@ mongoose
       },
     );
   })
-  .catch(err => {
+  .catch((err: any) => {
     console.error("[FAIL] Mongoose connection. ", err);
   });
 

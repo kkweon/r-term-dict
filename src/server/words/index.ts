@@ -11,8 +11,11 @@ router
   })
   .post(async (req, res) => {
     const word = await WordController.create(req.body);
-    if (word) res.send({ data: word });
-    else res.send({ data: false, message: "Fail to create" });
+    if (word) {
+      res.send({ data: word });
+    } else {
+      res.send({ data: false, message: "Fail to create" });
+    }
   });
 
 router

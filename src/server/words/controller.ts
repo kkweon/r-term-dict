@@ -1,4 +1,4 @@
-import { IWordModel, Word, IWord } from "./model";
+import { IWord, IWordModel, Word } from "./model";
 
 export default class WordController {
   public static async getAll(): Promise<IWordModel[]> {

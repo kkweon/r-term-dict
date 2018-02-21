@@ -7,6 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon",
+    "clean": "rm -rf build",
+    "cleaner": "rm -rf node_modules && yarn clean",
     "test": "NODE_ENV=test mocha -r ts-node/register tests/**/*.ts",
     "docker:dev": "NODE_ENV=development yarn docker:clean && docker-compose -f docker-compose.yml up",
     "docker:test": "NODE_ENV=test yarn docker:clean && docker-compose -f docker-compose.yml -f docker-compose.test.yml up",
@@ -14,6 +16,15 @@
     "docker:prod": "NODE_ENV=production yarn docker:clean && docker-compose -f docker-compose.yml -f docker-compose.prod.yml up"
   },
   "dependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/compression": "^0.0.35",
+    "@types/cors": "^2.8.3",
+    "@types/express": "^4.11.1",
+    "@types/helmet": "^0.0.37",
+    "@types/mocha": "^2.2.48",
+    "@types/mongoose": "^5.0.2",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^9.4.6",
     "body-parser": "^1.18.2",
     "compression": "^1.7.2",
     "cors": "^2.8.4",
@@ -24,22 +35,11 @@
     "morgan": "^1.9.0",
     "nodemon": "^1.15.1",
     "ts-node": "^5.0.0",
-    "typescript": "^2.7.2",
-    "webpack": "^3.11.0"
+    "typescript": "^2.7.2"
   },
   "devDependencies": {
-    "@types/body-parser": "^1.16.8",
     "@types/chai": "^4.1.2",
-    "@types/compression": "^0.0.35",
-    "@types/cors": "^2.8.3",
-    "@types/express": "^4.11.1",
-    "@types/helmet": "^0.0.37",
-    "@types/mocha": "^2.2.48",
-    "@types/mongoose": "^5.0.2",
-    "@types/morgan": "^1.7.35",
-    "@types/node": "^9.4.6",
     "@types/supertest": "^2.0.4",
-    "@types/webpack": "^3.8.8",
     "chai": "^4.1.2",
     "mocha": "^5.0.1",
     "supertest": "^3.0.0",
