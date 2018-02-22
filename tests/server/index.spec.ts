@@ -69,7 +69,7 @@ describe("/api/words", function() {
             .delete(`/api/words/${id}`)
             .expect(200)
             .then(res => {
-              expect(res.body.data).to.be.true;
+              expect(res.body.data).to.equal(id);
               done();
             })
             .catch(err => {

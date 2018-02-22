@@ -3,3 +3,8 @@ interface IConfig {
   db: string;
   port: number;
 }
+
+interface IWord {
+  en: string;
+  ko: string;
+}

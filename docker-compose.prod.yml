@@ -9,7 +9,7 @@ services:
     ports:
       - 4000:4000
     command: >
-      bash -c "yarn tsc && node build/bin/server.js"
+      bash -c "yarn build && node build/bin/server.js"
 
   db:
     image: mongo:latest
