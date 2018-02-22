@@ -32,7 +32,7 @@ router
   .delete(async (req, res) => {
     const result = await WordController.removeById(req.params.id);
     if (result) {
-      res.json({ data: true });
+      res.json({ data: req.params.id });
     } else {
       res.json({ data: false });
     }

@@ -14,8 +14,13 @@
     "docker:test": "NODE_ENV=test yarn docker:clean && docker-compose -f docker-compose.yml -f docker-compose.test.yml up",
     "docker:clean": "docker-compose down -v",
     "docker:prod": "NODE_ENV=production yarn docker:clean && docker-compose -f docker-compose.yml -f docker-compose.prod.yml up",
+    "copy": "yarn copy:data && yarn copy:public",
     "copy:data": "mkdir -p build/data && cp data/words.json build/data/",
-    "build": "NODE_ENV=production yarn tsc && yarn copy:data"
+    "copy:public": "mkdir -p build/src/server/public && cp src/server/public/* build/src/server/public/",
+    "seed": "yarn ts-node bin/run_seeds.ts",
+    "build": "NODE_ENV=production yarn build:server && yarn build:server && yarn copy",
+    "build:server": "yarn tsc && yarn copy:data",
+    "build:front": "yarn webpack --optimize-minimize"
   },
   "dependencies": {
     "@types/body-parser": "^1.16.8",
@@ -27,6 +32,14 @@
     "@types/mongoose": "^5.0.2",
     "@types/morgan": "^1.7.35",
     "@types/node": "^9.4.6",
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
+    "@types/react-redux": "^5.0.15",
+    "@types/redux-logger": "^3.0.5",
+    "@types/redux-promise-middleware": "^0.0.9",
+    "@types/webpack": "^3.8.8",
+    "awesome-typescript-loader": "^3.4.1",
+    "axios": "^0.18.0",
     "body-parser": "^1.18.2",
     "compression": "^1.7.2",
     "cors": "^2.8.4",
@@ -37,8 +50,15 @@
     "morgan": "^1.9.0",
     "nodemon": "^1.15.1",
     "pug": "^2.0.0-rc.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.0.0",
     "ts-node": "^5.0.0",
-    "typescript": "^2.7.2"
+    "typescript": "^2.7.2",
+    "webpack": "^3.11.0"
   },
   "devDependencies": {
     "@types/chai": "^4.1.2",
