@@ -1,6 +1,12 @@
 import axios from "axios";
 import { IWordModel } from "../../server/words/model";
-import { ActionTypes, IDeleteWord, IFetchWords, IUpdateWord } from "./types";
+import {
+  ActionTypes,
+  IDeleteWord,
+  IFetchWords,
+  IUpdateWord,
+  ICreateWord,
+} from "./types";
 
 const URL = process.env.API_URI || "http://localhost:4000/api/words";
 
@@ -28,5 +34,14 @@ export function deleteWord(id: string): IDeleteWord {
   return {
     payload,
     type: ActionTypes.DELETE_WORD,
+  };
+}
+
+export function createWord(word: IWord): ICreateWord {
+  const payload = axios.post(`${URL}`, word);
+
+  return {
+    payload,
+    type: ActionTypes.CREATE_WORD,
   };
 }
