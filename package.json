@@ -19,8 +19,8 @@
     "copy:public": "mkdir -p build/src/server/public && cp src/server/public/* build/src/server/public/",
     "seed": "yarn ts-node bin/run_seeds.ts",
     "build": "NODE_ENV=production yarn build:server && yarn build:front && yarn copy",
-    "build:server": "yarn tsc && yarn copy:data",
-    "build:front": "yarn webpack --optimize-minimize"
+    "build:server": "NODE_ENV=production yarn tsc",
+    "build:front": "NODE_ENV=production yarn webpack --optimize-minimize"
   },
   "dependencies": {
     "@types/body-parser": "^1.16.8",
@@ -52,6 +52,7 @@
     "mongoose": "^5.0.6",
     "morgan": "^1.9.0",
     "nodemon": "^1.15.1",
+    "prop-types": "^15.6.0",
     "pug": "^2.0.0-rc.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

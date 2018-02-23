@@ -24,6 +24,12 @@ const config: webpack.Configuration = {
       },
     ],
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV),
+      "process.env.API_URI": JSON.stringify(process.env.API_URI),
+    }),
+  ],
 };
 
 export default config;

@@ -82,7 +82,6 @@ class App extends React.Component<IStateProps, IOwnState> {
 
   componentDidMount() {
     if (this.input) {
-      console.log(this.input);
       this.input.focus();
     }
   }

@@ -6,6 +6,7 @@ services:
       - PORT=4000
       - DB_URI=mongodb://db/prod
       - NODE_ENV=production
+      - API_URI=/api/words
     ports:
       - 4000:4000
     command: >
