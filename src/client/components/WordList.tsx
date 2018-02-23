@@ -5,11 +5,13 @@ import Word from "./Word";
 import styled from "react-emotion";
 
 const Table = styled("table")`
+font-size: 1.1rem;
 width: 100%;
 
 tr td:last-child {
   text-align: right;
 }
+border-collapse: collapse;
 `
 
 export default function({ words }: { words: IWordModel[] }) {

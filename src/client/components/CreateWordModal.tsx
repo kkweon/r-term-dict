@@ -19,6 +19,26 @@ const Modal = styled("div")`
   transform: translateX(-50%);
 `;
 
+const Form = styled("form")`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem;
+  min-height: 100%;
+`;
+
+const FieldSet = styled("fieldset")`
+  border: 0;
+  width: 100%;
+`;
+
+const Input = styled("input")`
+  width: 100%;
+  padding: 0.5rem;
+`;
+
 interface IFormProps {
   en: string;
   ko: string;
@@ -41,9 +61,14 @@ const validate = (values: IFormProps) => {
 
   if (!values.en) {
     errors.en = "필수 입력입니다.";
+  } else if (! /[A-z]+/.test(values.en))  {
+    errors.en = "영어가 필요합니다."
   }
+
   if (!values.ko) {
     errors.ko = "필수 입력입니다.";
+  } else if (! /[가-힣]+/.test(values.ko)) {
+    errors.ko = "한글이 필요합니다."
   }
   return errors;
 };
@@ -59,16 +84,16 @@ const renderField = ({
   input,
   label,
   type,
-  autoFocus,
+  autoFocus = false,
   meta: { touched, error, warning },
 }: IFieldProps) => (
   <div>
     <label>{label}</label>
     <div>
-      <input {...input} placeholder={label} type={type} autoFocus={autoFocus} />
+      <Input {...input} placeholder={label} type={type} autoFocus={autoFocus} />
       {touched &&
-        ((error && <span className="text-danger">{error}</span>) ||
-          (warning && <span className="text-danger">{warning}</span>))}
+        ((error && <p className="text-danger">{error}</p>) ||
+          (warning && <p className="text-danger">{warning}</p>))}
     </div>
   </div>
 );
@@ -82,26 +107,27 @@ class CreateWordModal extends React.Component<Props> {
   render() {
     return (
       <Modal>
-        <form onSubmit={this.props.handleSubmit(this.handleSubmit.bind(this))}>
-          <fieldset>
+        <Form onSubmit={this.props.handleSubmit(this.handleSubmit.bind(this))}>
+          <FieldSet>
             <Field
               label="영어"
               name="en"
               type="text"
               component={renderField}
-              autoFocus={true}
             />
-          </fieldset>
+          </FieldSet>
 
-          <fieldset>
+          <FieldSet>
             <Field label="한글" name="ko" type="text" component={renderField} />
-          </fieldset>
+          </FieldSet>
 
-          <button type="submit">Create</button>
-          <button type="button" onClick={this.props.onClick}>
-            Cancel
-          </button>
-        </form>
+          <div>
+            <button type="submit" disabled={this.props.pristine || this.props.invalid }>생성</button>
+            <button type="button" onClick={this.props.onClick}>
+              취소
+            </button>
+          </div>
+        </Form>
       </Modal>
     );
   }

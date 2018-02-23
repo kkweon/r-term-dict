@@ -23,23 +23,29 @@ const toLowerTrim = (word: string): string => {
 
 const SearchInput = styled("input")`
   width: 100%;
+  padding: 0.3rem;
+  font-size: 1.5em;
 `;
 
 const AddButton = styled("button")`
-position: fixed;
-right: 10%;
-bottom: 10%;
-border: 0;
-border-radius: 50%;
-color: white;
-background-color: ${props => props.theme.primaryColor};
-box-shadow: 2px 2px 2px solid black;
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  border: 0;
+  border-radius: 50%;
+  color: white;
+  background-color: ${props => props.theme.primaryColor};
+  box-shadow: 2px 2px 5px black;
 
-cursor: pointer;
-font-size: 2rem;
-height: 3rem;
-width: 3rem;
-`
+  cursor: pointer;
+  font-size: 2rem;
+  height: 3rem;
+  width: 3rem;
+
+  :hover {
+    box-shadow: 2px 2px 10px black;
+  }
+`;
 
 class App extends React.Component<IStateProps, IOwnState> {
   private input: HTMLInputElement | null;
@@ -68,8 +74,8 @@ class App extends React.Component<IStateProps, IOwnState> {
     if (term) {
       return this.props.words.filter(
         word =>
-          toLowerTrim(word.ko).includes(this.state.term) ||
-          toLowerTrim(word.en).includes(this.state.term),
+          toLowerTrim(word.ko).includes(term) ||
+          toLowerTrim(word.en).includes(term),
       );
     }
 
@@ -89,6 +95,13 @@ class App extends React.Component<IStateProps, IOwnState> {
   public render() {
     const words = this.filter();
 
+    const wordList =
+      words.length > 0 ? (
+        <WordList words={words} />
+      ) : (
+        <p>결과를 찾지 못했습니다. 단어를 추가해주시면 감사</p>
+      );
+
     const modal = this.state.showModal ? (
       <CreateWordModal onClick={this.handleModalClick.bind(this)} />
     ) : null;
@@ -106,7 +119,7 @@ class App extends React.Component<IStateProps, IOwnState> {
           onKeyPress={this.handleKeyPress.bind(this)}
         />
         <hr />
-        <WordList words={words} />
+        {wordList}
         {modal}
       </Container>
     );
