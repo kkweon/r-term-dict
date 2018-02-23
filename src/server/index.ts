@@ -32,7 +32,7 @@ class Server {
 
   private routes() {
     this.app.get("/", (_, res) => {
-      res.render("index", { message: "THIS IS THE ROOT" });
+      res.render("index");
     });
 
     this.app.use("/api/words", wordRouter);

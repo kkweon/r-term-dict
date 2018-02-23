@@ -10,6 +10,9 @@ export enum ActionTypes {
 
   DELETE_WORD = "DELETE_WORD",
   DELETE_WORD_FULFILLED = "DELETE_WORD_FULFILLED",
+
+  CREATE_WORD = "CREATE_WORD",
+  CREATE_WORD_FULFILLED = "CREATE_WORD_FULFILLED"
 }
 
 export interface IFetchWords {
@@ -54,10 +57,22 @@ export interface IDeleteWordDone {
   readonly payload: axios.AxiosResponse<IServereDeleteResponse>;
 }
 
+export interface ICreateWord {
+  readonly type: ActionTypes.CREATE_WORD;
+  readonly payload: axios.AxiosPromise;
+}
+
+export interface ICreateWordDone {
+  readonly type: ActionTypes.CREATE_WORD_FULFILLED;
+  readonly payload: axios.AxiosResponse<IServerResponse>;
+}
+
 export type Action =
   | IFetchWords
   | IFetchWordsDone
   | IUpdateWord
   | IUpdateWordDone
   | IDeleteWord
-  | IDeleteWordDone;
+  | IDeleteWordDone
+  | ICreateWord
+  | ICreateWordDone;

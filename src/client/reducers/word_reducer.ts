@@ -16,8 +16,14 @@ export default (state: IWordModel[] = [], action: Action): IWordModel[] => {
       });
     case ActionTypes.DELETE_WORD_FULFILLED:
       if (typeof action.payload.data.data === "string")
-        return state.filter((word: IWordModel) => word._id !== action.payload.data.data);
+        return state.filter(
+          (word: IWordModel) => word._id !== action.payload.data.data,
+        );
       else return state;
+
+    case ActionTypes.CREATE_WORD_FULFILLED:
+      const word = action.payload.data.data;
+      return [word, ...state];
     default:
       return state;
   }
