@@ -1,14 +1,15 @@
 import axios from "axios";
+import config from "../../config";
 import { IWordModel } from "../../server/words/model";
 import {
   ActionTypes,
+  ICreateWord,
   IDeleteWord,
   IFetchWords,
   IUpdateWord,
-  ICreateWord,
 } from "./types";
 
-const URL = process.env.API_URI || "http://localhost:4000/api/words";
+const URL = config.api;
 
 export function fetchWords(): IFetchWords {
   const payload = axios.get<IWordModel[]>(URL);
