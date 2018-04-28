@@ -1,4 +1,7 @@
 * English - Korean Dictionary
+
+  #+ATTR_HTML: title="Greenkeeper badge"
+  [[https://greenkeeper.io/][file:https://badges.greenkeeper.io/kkweon/r-term-dict.svg]]
 It is a dictionary of confusing technical words for translating R related books.
 
 
